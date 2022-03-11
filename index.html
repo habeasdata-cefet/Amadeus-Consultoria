@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Amadeus</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="img/icons/icone-logo.png" type="image/png"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<section class="cabecalho-e-banner">
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logo.png">
+                </a>
+            </div>
+
+            <div class="menu">
+                <div class="menu-desktop">
+                    <ul>
+                        <li><a href="index.html">Página inicial</a></li>
+                        <li><a href="empresa.html">Sobre a empresa</a></li>
+                        <li><a href="nossos_servicos.html">Nossos serviços</a></li>
+                        <li><a href="quem_somos.html">Quem Somos</a></li>
+                        <li><a href="clientes.html">Clientes</a></li>
+                        <li><a href="contato.html">Entre em contato</a></li>
+                        <li class="botao-webmail"><a href="http://webmail.migadu.com/" target="_blank">Acessar Webmail</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="menu-mobile">
+              
+                <div id="mySidenav" class="sidenav">
+                    <div class="fechar" onclick="closeNav()"><a>X</a></div>
+                    <a href="index.html">Página inicial</a>
+                    <a href="empresa.html">Sobre a empresa</a>
+                    <a href="nossos_servicos.html">Nossos serviços</a>
+                    <a href="quem_somos.html">Quem Somos</a>
+                    <a href="clientes.html">Clientes</a>
+                    <a href="contato.html">Contato</a>
+                    <a href="http://webmail.migadu.com/" target="_blank">Webmail</a>
+                </div>
+
+                <span onclick="openNav()"><img src="img/icons/menu.png"></span>
+            </div>
+        </nav>
+    </header>
+
+    <span id="closebtn" onclick="closeNav()"></span>
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-inline-block w-100" src="img/slide.jpg" alt="Primeiro Slide">
+                <div class="carousel-caption d-md-block">
+                    <h5>Há mais de 25 anos no mercado.</h5>
+                    <h1>Uma empresa especializada</h1>
+                    <p>Para alcançar a eficiência em seus projetos, a empresa desenvolve um constante trabalho de estudo e pesquisa, buscando disponibilizar aos seus clientes, informações atualizadas e as mais modernas técnicas de administração.</p>
+                    <div class="botao-banner">
+                        <a href="empresa.html">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-inline-block w-100" src="img/slide-2.jpg" alt="Segundo Slide">
+                <div class="carousel-caption d-md-block">
+                    <h5>AMADEUS CONSULTORIA LTDA.</h5>
+                    <h1>Para cumprir os seus objetivos</h1>
+                    <p>A empresa mantém quadros técnicos especializados, e metodologias de integração interdiscipliar, de forma a garantir que seus consultores compreendam a Administração Pública em toda a sua complexidade.</p>
+                    <div class="botao-banner">
+                        <a href="empresa.html">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div> 
+
+    <section class="faixa">
+        <div class="bloco-faixa">
+            <div class="dentro-faixa">
+                <img src="img/icons/faixa-1.webp" style="width: 50px;">
+                <p>Atendimento presencial e online.</p>
+            </div>
+
+            <div class="dentro-faixa">
+                <img src="img/icons/faixa-2.webp" style="width: 50px;">
+                <p>Suporte de 2ª a 6ª feira, das 08:00 às 18:00 horas.</p>
+            </div>
+
+            <div class="dentro-faixa">
+                <img src="img/icons/faixa-3.png" style="width: 50px;">
+                <p>Missionários dos serviços públicos.</p>
+            </div>
+        </div>
+    </section>
+</section>
+
+<section class="sobre-empresa">
+    <div class="bloco-sobre">
+        
+        <div class="imagem-sobre">
+            <img src="img/sede.webp">
+        </div>
+
+        <div class="descricao-sobre">
+            <div class="texto-sobre">
+                <h5>A empresa</h5>
+                <h4>Conheça mais sobre nossa empresa</h4>
+                <p>A AMADEUS CONSULTORIA LTDA, fundada em 13 de agosto de 1998, é uma empresa consonante com a contemporaneidade da Administração Pública e alicerçada em sólidas proposições constitutivas que propiciam a seus clientes embasamento para a solução dos mais diversos assuntos vivenciados na Administração Pública.</p>
+
+                <p>Sua fundação coincide com uma época de profundas alterações na vida pública nacional, qual seja, por ocasião da discussão e aprovação das Emendas Constitucionais Nº 19 e 20, Reforma Administrativa e Reforma Previdenciária, respectivamente.</p>
+
+                <p>Este ensejo propiciou a formulação de uma empresa ágil, estruturada e bem informada, que presta serviços, promove estudos, implanta processos, desenvolve estudos e tecnologias, coopera tecnicamente com a Administração Pública e discute o aprimoramento das políticas do setor.</p>
+
+            </div>
+
+            <div class="botoes-sobre">
+               <div class="primeiro-botao">
+                   <a href="empresa.html">Saiba mais</a>
+               </div> 
+
+               <div class="segundo-botao">
+                   <a href="contato.html">Entre em contato</a>
+               </div>
+            </div>
+        </div>  
+
+    </div>
+</section>
+
+
+
+
+<section class="clientes">
+    <div class="bloco-clientes">
+
+        <div class="titulo">
+          <h5>Nossos clientes</h5>  
+          <h3>Conheça alguns dos nossos clientes e ex-clientes</h3>
+        </div>
+
+        <div class="imagem-clientes">
+            <div class="carrossel">
+                <div class="imagem-individual-cliente">
+                    <img src="img/clientes/aracuai.png">
+                    <img src="img/clientes/tombos.png">
+                    <img src="img/clientes/matutina.png">
+                    <img src="img/clientes/carangola.png">
+                    <img src="img/clientes/itinga.png">
+                    <img src="img/clientes/sao-gotardo.png">
+                    <img src="img/clientes/alterosa.png">
+                    <img src="img/clientes/martins-soares.png">
+                    <img src="img/clientes/tocantins.png">
+                    <img src="img/clientes/patrocinio.png">
+                    <img src="img/clientes/luisburgo.png">
+                    <img src="img/clientes/salto.png">
+                    <img src="img/clientes/rio-doce.png">
+                    <img src="img/clientes/simonesia.png">
+                    <img src="img/clientes/minas-novas.png">
+                    <img src="img/clientes/manhuacu.png">
+                    <img src="img/clientes/santa-barbara.png">
+                </div>    
+            </div>
+
+            <div class="carrossel">
+                <div class="imagem-individual-cliente">
+                    <img src="img/clientes/prefeitura-tiros.png">
+                    <img src="img/clientes/pains.png">
+                    <img src="img/clientes/contagem.png">
+                    <img src="img/clientes/sao-bras.png">
+                    <img src="img/clientes/senhora-remedios.png">
+                    <img src="img/clientes/ouro-branco.png">
+                    <img src="img/clientes/recreio.png">
+                    <img src="img/clientes/alvarenga.png">
+                    <img src="img/clientes/pocos-caldas.png">
+                    <img src="img/clientes/monsenhor.png">
+                    <img src="img/clientes/carbonita.png">
+                    <img src="img/clientes/luminarias.png">
+                    <img src="img/clientes/cambuquira.png">
+                    <img src="img/clientes/itinga.png">
+                    <img src="img/clientes/bueno-brandao.png">
+                    <img src="img/clientes/nova-resende.png">
+                    <img src="img/clientes/camara-betim.png">
+                    <img src="img/clientes/visconde.png">
+                    <img src="img/clientes/tres-marias.png">
+                </div>    
+            </div>
+        </div>
+        <div class="botoes-sobre">
+            <div class="primeiro-botao">
+                <a href="clientes.html">Saiba mais</a>
+            </div> 
+        </div>
+    </div>
+</section>
+
+<section class="servicos">
+    <div class="bloco-servicos">
+    
+        <div class="titulo">
+          <h5>Nossos serviços</h5>  
+          <h3>Conheça alguns dos nossos serviços</h3>
+        </div>
+
+        <div class="descricao-servicos-inicio">
+            <p>A AMADEUS CONSULTORIA é uma empresa estabelecida a 20 (vinte) anos no mercado mineiro, com atuação no seguimento público, prestando consultoria e assessoria a diversas Prefeituras, Câmaras Municipais, Autarquias e Entidades de caráter público ligadas a estes seguimentos.</p>
+        
+            <p>O seu diverso e especializado corpo de consultores, composto por administradores, advogados, economistas e contadores, com passagem por vários órgãos ligadas à vida pública e privada nacional, proporciona a ela ampla e abrangente visão sobre o seguimento público.</p>
+
+            <p>Sua atuação se faz presente, na prestação de serviços técnicos especializados para modernização da Administração Pública Municipal, na criação de instrumentos de planejamento, programação e gestão. A partir do diagnóstico e análise dos traços culturais da organização, a AMADEUS CONSULTORIA busca a otimização dos processos administrativos, a redução do custeio, o aumento da capacidade de investimentos e a implementação de modelo organizacional alicerçado em proposições sólidas e novos valores culturais. Esse conjunto de ações, embasado em diversos fundamentos, metodologias e técnicas propiciadas pela administração moderna, tem como resultado o conhecimento real da organização em análise o que propiciará e privilegiará a participação popular.</p>
+        </div>
+
+        <div class="servicos-individuais">
+            <a href="nossos_servicos.html#planejamento-municipal" class="descricao-servicos" >
+                <img src="img/icons/servico-1.png">
+                <h5>PLANEJAMENTO MUNICIPAL</h5>
+                <p>Assessoramento no planejamento<br> governamental estratégico.</p>
+            </a>
+
+            <a href="nossos_servicos.html#orcamentario-e-financeiro" class="descricao-servicos">
+                <img src="img/icons/servico-2.png">
+                <h5>ORÇAMENTARIO E FINANCEIRO</h5>
+                <p>Orientação e acompanhamento da execução orçamentária.</p>
+            </a>
+
+            <a href="nossos_servicos.html#materiais" class="descricao-servicos">
+                <img src="img/icons/servico-3.png">
+                <h5>MATERIAS (ESTOQUE, COMPRAS, LICITAÇÕES)</h5>
+                <p>Orientação e acompanhamento dos procedimentos licitatórios em geral em todas as suas fases.</p>
+            </a>
+
+            <a href="nossos_servicos.html#organizacao" class="descricao-servicos">
+                <img src="img/icons/servico-6.png">
+                <h5>GESTÃO FISCAL, TRIBUTÁRIA</h5>
+                <p>Orientação e acompanhamento das atividades fiscais do Município.</p>
+            </a>
+
+            <a href="nossos_servicos.html#controle-govenamental" class="descricao-servicos">
+                <img src="img/icons/servico-5.png">
+                <h5>CONTROLE GOVERNAMENTAL</h5>
+                <p>Orientação e acompanhamento dos atos e fatos da Administração Municipal.</p>
+            </a>
+
+            <a href="nossos_servicos.html#gestao-pessoas" class="descricao-servicos">
+                <img src="img/icons/servico-7.png">
+                <h5>GESTÃO DE PESSOAS</h5>
+                <p>Assessoramento no planejamento<br> governamental estratégico.</p>
+            </a>
+
+            <a href="nossos_servicos.html#gestao" class="descricao-servicos">
+                <img src="img/icons/servico-4.png">
+                <h5>ORGANIZAÇÃO, SISTEMAS E MÉTODOS<br> NA GESTAO MUNICIPAL</h5>
+                <p>Orientação para implantação de processos de desenvolvimento institucional.</p>
+            </a>
+
+            <a href="nossos_servicos.html#administrativa" class="descricao-servicos">
+                <img src="img/icons/servico-8.png">
+                <h5>ADMINISTRATIVA</h5>
+                <p>Elaboração de projetos de leis, decretos, regulamentos, portarias, instruções e demais atos normativos do Município.</p>
+            </a>
+            
+        </div>
+    </div>
+</section>
+
+<section class="informacao-faixa">
+    <div class="bloco-informacao">
+        <p>Para alcançar a eficiência em seus projetos, a empresa desenvolve um constante trabalho de estudo e pesquisa.</p>
+        <a href="empresa.html">Saiba mais</a>
+    </div>
+</section>
+
+<footer>
+    <div class="bloco-rodape">    
+        <div class="logo-rodape">
+            <img src="img/logo.png">
+        </div>
+
+        <div class="superior-rodape">
+            <h4>Para alcançar a eficiência em seus projetos, a empresa desenvolve um constante trabalho de estudo e pesquisa, buscando disponibilizar aos seus clientes, informações atualizadas, suporte técnico e as mais modernas técnicas de administração.</h4>
+        </div>
+
+        <div class="endereco-rodape">
+            <h5>Endereço</h5>
+            <p>MATRIZ: Av. Olegário Maciel, 2345, salas 301 e 302, Bairro Santo Agostinho, Belo Horizonte-MG, CEP 30.180-112 - CNPJ: 02.786.239/0001-64</p>
+            <br>
+            <p>FILIAL: Av. Dr. Jose Mariano, 87, 2º andar, Bairro Citrolândia, Betim-MG, CEP 32.641-834 - CNPJ: 02.786.239/0002-45</p>
+        </div>
+    </div>
+
+    <div class="inferior-rodape">
+        <div class="copy">
+            <p>Amadeus consultoria © 2018. Todos os direitos reservados.</p>
+        </div>
+    </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<script src="js/index.js"></script>
+
+</body>
+</html>

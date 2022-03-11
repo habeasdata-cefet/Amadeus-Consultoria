@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Amadeus</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="img/icons/icone-logo.png" type="image/png"/>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+<body>
+
+<section class="cabecalho-e-banner">
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logo.png">
+                </a>
+            </div>
+
+            <div class="menu">
+                <div class="menu-desktop">
+                    <ul>
+                        <li><a href="index.html">Página inicial</a></li>
+                        <li><a href="empresa.html">Sobre a empresa</a></li>
+                        <li><a href="nossos_servicos.html">Nossos serviços</a></li>
+                        <li><a href="quem_somos.html">Quem Somos</a></li>
+                        <li><a href="clientes.html">Clientes</a></li>
+                        <li><a href="contato.html">Entre em contato</a></li>
+                        <li class="botao-webmail"><a href="http://webmail.migadu.com/" target="_blank">Acessar Webmail</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="menu-mobile">
+              
+                <div id="mySidenav" class="sidenav">
+                    <div class="fechar" onclick="closeNav()"><a>X</a></div>
+                    <a href="index.html">Página inicial</a>
+                    <a href="empresa.html">Sobre a empresa</a>
+                    <a href="nossos_servicos.html">Nossos serviços</a>
+                    <a href="quem_somos.html">Quem Somos</a>
+                    <a href="clientes.html">Clientes</a>
+                    <a href="contato.html">Contato</a>
+                    <a href="http://webmail.migadu.com/" target="_blank">Webmail</a>
+                </div>
+
+                <span onclick="openNav()"><img src="img/icons/menu.png"></span>
+            </div>
+        </nav>
+    </header>
+
+    <div class="banner-outras-paginas" style="background: url('img/banner-2.jpg') no-repeat center;">   
+        <div class="bloco-banner-outras-paginas">
+            <h1>Clientes</h1>
+        </div>
+    </div>
+
+    <span id="closebtn" onclick="closeNav()"></span>
+
+    <section class="faixa">
+        <div class="bloco-faixa">
+            <div class="dentro-faixa">
+                <img src="img/icons/faixa-1.webp" style="width: 50px;">
+                <p>Atendimento presencial e online.</p>
+            </div>
+
+            <div class="dentro-faixa">
+                <img src="img/icons/faixa-2.webp" style="width: 50px;">
+                <p>Suporte de 2ª a 6ª feira, das 08:00 às 18:00 horas.</p>
+            </div>
+
+            <div class="dentro-faixa">
+                <img src="img/icons/faixa-3.png" style="width: 50px;">
+                <p>Missionários dos serviços públicos.</p>
+            </div>
+        </div>
+    </section>
+</section>
+
+<section id="clientes">
+    <div class="titulo">
+        <h2 style="margin: 20px 0 10px 0;">Clientes</h2>
+    </div>
+    <div id="botoes">
+        <button class="btn" value="dezessete" id="primeiro">2017-2022</button>
+        <button class="btn" value="treze">2013-2016</button>
+        <button class="btn" value="nove">2009-2012</button>
+        <button class="btn" value="cinco">2005-2008</button>    
+        <button class="btn" value="um">2001-2004</button>
+        <button class="btn" value="noventaesete" >1997-2000</button>
+    </div>
+    <div id="clientes-descricao">
+        <div class="some pagina-bloco-clientes" id="noventaesete">
+            <div>
+                <p>Câmara Municipal de Ibiraci</p>
+                <img src="img/clientes/ibiraci.png" alt="ibaraci logo">
+            </div>
+            <div>
+                <p>DAEPA - Departamento de água e esgoto de patrocínio</p>
+                <img src="img/clientes/daepa.webp" alt="DAEPA logo">
+            </div>
+            <div>
+                <p>FAPSEM - Fundo de aposentadoria e pensão dos servidores / Tocantins</p>
+                <img src="img/clientes/tocantins.png" alt=" FAPSEM logo">
+            </div>
+            <div>
+                <p>IPSEM - Instituto de previdência dos servidores municipais / Patrocínio</p>
+                <img src="img/clientes/patrocinio.png" alt="Patrocínio logo">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Patrocínio</p>
+                <img src="img/clientes/patrocinio.png" alt="Patrocínio logo">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Itabira</p>
+                <img src="img/clientes/itabira.png" alt="itabira logo">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Vermelho Novo</p>
+                <img src="img/clientes/vermelho-novo.png" alt="Vermelho novo logo">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Manhuaçu</p>
+                <img src="img/clientes/manhuacu.png" alt="Manhuaçu logo">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Igarapé</p>
+                <img src="img/clientes/igarape.png" alt="Igarapé logo">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Martins Soares</p>
+                <img src="img/clientes/martins-soares.png" alt="Martin Soares logo">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Araçuaí</p>
+                <img src="img/clientes/aracuai.png" alt="Araçuaí logo">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Itinga</p>
+                <img src="img/clientes/itinga-2.png" alt="Itinga logo">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Tombos</p>
+                <img src="img/clientes/tombos.png" alt="Tombos logo">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Carangola</p>
+                <img src="img/clientes/carangola.png" alt="Brasão de Carangola">
+            </div>
+        </div>
+        <div class="some pagina-bloco-clientes" id="um">
+            <div>
+                <p>Câmara Municipal de Nova Resende</p>
+                <img src="img/clientes/nova-resende.png" alt="Brasão de Nova Resende">
+            </div>
+            <div>
+                <p>Câmara Municipal de Bueno Brandão</p>
+                <img src="img/clientes/bueno-brandao.png" alt="Brasão de Bueno Brandão">
+            </div>
+            <div>
+                <p>Câmara Municipal de Carbonita</p>
+                <img src="img/clientes/carbonita.png" alt="Brasão de Carbonita">
+            </div>
+            <div>           
+                 <p>Câmara Municipal de Itinga</p>
+                 <img src="img/clientes/itinga.png" alt="Brasão de Itinga">
+            </div>
+            <div>
+                <p>Câmara Municipal de Visconde do Rio Branco</p>
+                <img src="img/clientes/visconde.png" alt="Brasão de Visconde do Rio Branco">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Comercinho</p>
+                <img src="img/clientes/comercinho.png" alt="Brasão de Comercinho">
+            </div>
+            <div>
+                <p>DAEPA - Departamento de água e esgoto de patrocínio</p>
+                <img src="img/clientes/daepa.webp" alt="Brasão da DAEPA">
+            </div>
+            <div>
+                <p>FAPSEM - Fundo de aposentadoria e pensão dos servidores/ Tocantins</p>
+                <img src="img/clientes/tocantins.png" alt="Brasão de Tocantins">
+            </div>
+            <div>
+                <p>IPSEM - Instituto de previdência dos servidores municipais / Patrocínio</p>
+                <img src="img/clientes/patrocinio.png" alt="Brasão de Patrocínio">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Itaobim</p>
+                <img src="img/clientes/itaobim.png" alt="Brasão de Itaobim">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Manhuaçu</p>
+                <img src="img/clientes/manhuacu.png" alt="Brasão de Manhuaçu">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Martins Soares</p>
+                <img src="img/clientes/martins-soares.png" alt="Brasão de Martins Soares">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Matutina</p>
+                <img src="img/clientes/matutina.png" alt="Brasão de Matutina">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Minas Novas</p>
+                <img src="img/clientes/minas-novas.png" alt="Brasão de Minas Novas">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Patrocínio</p>
+                <img src="img/clientes/patrocinio.png" alt="Brasão de Patrocínio">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Pavão</p>
+                <img src="img/clientes/pavao.png" alt="Brasão de Pavão">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Salto da Divisa</p>
+                <img src="img/clientes/salto.png" alt="Brasão de Salto da Divisa">
+            </div>
+            <div>
+                <p>SAAE - Serviço autônomo de água e esgoto de Santa Bárbara</p>
+                <img src="img/clientes/santa-barbara.png" alt="Brasão de Santa Bárbara">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de São Gotardo</p>
+                <img src="img/clientes/sao-gotardo.png" alt="Brasão de São Gotardo">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Tiros</p>
+                <img src="img/clientes/tiros.png" alt="Brasão de Tiros">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Tocantins</p>
+                <img src="img/clientes/tocantins.png" alt="Brasão de Tocantins">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Ubaporanga</p>
+                <img src="img/clientes/ubaporanga.png" alt="Brasão de Ubaporanga">
+            </div>
+        </div>
+        <div class="some pagina-bloco-clientes" id="cinco">
+            <div>
+                <p>Prefeitura Municipal de Conceição da Aparecida</p>
+                <img src="img/clientes/conceicao-da-aparecida.jpg" alt="Brasão de Conceição de Aparecida">
+            </div>
+            <div>
+                <p>SIND-UTE de Betim</p>
+                <img src="img/clientes/sindute-betim.jpg" alt=" SIND-UTE de Betim">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Virgem da Lapa</p>
+                <img src="img/clientes/virgem.png" alt="Brasão de Virgem da Lapa">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Urucânia</p>
+                <img src="img/clientes/urucania.png" alt="Brasão de Urucânia">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Tombos</p>
+                <img src="img/clientes/tombos.png" alt="Brasão de Tombos">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Tarumirim</p>
+                <img src="img/clientes/tarumirim.png" alt="Brasão de Tarumirim">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Tabuleiro</p>
+                <img src="img/clientes/tabuleiro.png" alt="Brasão de Tabuleiro">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Simonésia</p> 
+                <img src="img/clientes/simonesia.png" alt="Brasão de Tarumirim">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Senhora dos Remédios</p>
+                <img src="img/clientes/senhora-remedios.png" alt="Brasão de Senhora dos Remédios">
+            </div>      
+            <div>
+                <p>Prefeitura Municipal de Senhora de Oliveira</p>
+                <img src="img/clientes/senhor-oliveira.png" alt="Brasão de Senhora de Oliveira">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de São João das Missões</p>
+                <img src="img/clientes/sao-joao-missoes.png" alt="Brasão de São João das Missões">
+            </div> 
+            <div>
+                <p>Prefeitura Municipal de São João do Manhuaçu</p>
+                <img src="img/clientes/sao-joao-manhuacu.png" alt="Brasão de São João do Manhuaçu">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de São Brás do Suaçui</p>
+                <img src="img/clientes/sao-bras.png" alt="Brasão de São Brás de Suaçui">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Rio Espera</p>
+                <img src="img/clientes/rio-espera.jpg" alt="Brasão de Rio Espera">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Rio Doce</p>
+                <img src="img/clientes/rio-doce.png" alt="Brasão de Rio Doce">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Recreio</p>
+                <img src="img/clientes/recreio.png" alt="Brasão de Recreio">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Ponte Nova</p>
+                <img src="img/clientes/ponte-nova.jpg" alt="Brasão de Ponte Nova">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Pitangui</p>
+                <img src="img/clientes/pitangui.png" alt="Brasão de Pitangui">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Piranguinho</p>
+                <img src="img/clientes/piranguinho.png" alt="Brasão de Piranguinho">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Pains</p>
+                <img src="img/clientes/pains.png" alt="Brasão de Pains">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Ouro Branco</p>
+                <img src="img/clientes/ouro-branco.png" alt="Brasão de Ouro Branco">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Nova Resende</p>
+                <img src="img/clientes/nova-resende.png" alt="Brasão de Nova Resende">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Luisburgo</p>
+                <img src="img/clientes/luisburgo.png" alt="Brasão de Luisburgo">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Lagoa Santa</p>
+                <img src="img/clientes/lagoa-santa.jpg" alt="Brasão de Lagoa Santa">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Itinga</p>
+                <img src="img/clientes/itinga-2.png" alt="Brasão de Itinga">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Dom Cavati</p>
+                <img src="img/clientes/dom-cavati.png" alt="Brasão de Dom Cavati">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Divino</p>
+                <img src="img/clientes/divino.png" alt="Brasão de Divino">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Cruzeiro da Fortaleza</p>
+                <img src="img/clientes/cruzeiro-da-fortaleza.png" alt="Brasão de Cruzeiro da Fortaleza">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Contagem</p>
+                <img src="img/clientes/contagem.png" alt="Brasão de Contagem">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Conselheiro Lafaiete</p>
+                <img src="img/clientes/conselheiro-lafaiete.png" alt="Brasão de Conselheiro Lafaiete">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Congonhas</p>
+                <img src="img/clientes/congonhas.png" alt="Brasão de COngonhas">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Comercinho</p>
+                <img src="img/clientes/comercinho.png" alt="Brasão de Comercinho">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Boa Esperança</p>
+                <img src="img/clientes/boa-esperanca.png" alt="Brasão de Boa Esperanças">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Berilo</p>
+                <img src="img/clientes/berilo.png" alt="Brasão de Berilo">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Araçuaí</p>
+                <img src="img/clientes/aracuai.png" alt="Brasão de Araçuaí">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Alterosa</p>
+                <img src="img/clientes/alterosa.png" alt="Brasão de Alterosa">
+            </div>
+            <div>
+                <p>IPASI - Instituto de Previdência Social de Ibirité</p>
+                <img src="img/clientes/ipasi.png" alt="Brasão de IPASI - Instituto de Previdência Social de Ibirité">
+            </div>
+            <div>
+                <p>CISVERDE - Consórcio Intermunicipal de Saúde</p>
+                <img src="img/clientes/cisverde.png" alt="Brasão de CISVERDE - Consórcio Intermunicipal de Saúde">
+            </div>
+            <div>
+                <p>Câmara Municipal de Patrocínio</p>
+                <img src="img/clientes/patrocinio-2.png" alt="Brasão de Patrocínio">
+            </div>
+            <div>
+                <p>Câmara Municipal de Betim</p>
+                <img src="img/clientes/camara-betim.png" alt="Brasão da Câmera Municipal de Betim">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Serrania</p>
+                <img src="img/clientes/serrania.png" alt="Brasão de Serrania">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Carbonita</p>
+                <img src="img/clientes/carbonita.png" alt="Brasão de Carbonita">
+            </div>
+        </div>
+        <div class="some pagina-bloco-clientes" id="nove">
+            <div>
+                <p>Prefeitura de Matias Barbosa</p>
+                <img src="img/clientes/matias.png" alt="Brasão de Matias Barbosa">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Ubá</p>
+                <img src="img/clientes/uba.png" alt="Brasão de Ubá"> 
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Pintangui</p>
+                <img src="img/clientes/pitangui.png" alt="Brasão de Pitangui">
+            </div>
+            <div>
+                <p>Câmara Municipal de Patrocínio</p>
+                <img src="img/clientes/patrocinio.png" alt="Brasão de Patrocínio">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Tiros</p> 
+                <img src="img/clientes/tiros.png" alt="Brasão de Tiros">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Tombos</p>
+                <img src="img/clientes/tombos.png" alt="Brasão de Tombos">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Ouro Branco</p>
+                <img src="img/clientes/ouro-branco.png" alt="Brasão de Ouro Branco">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Urucânia</p>
+                <img src="img/clientes/urucania.png" alt="Brasão de Urucânia">
+            </div>
+            <div>
+                <p>Câmara Municipal de Luminárias</p>
+                <img src="img/clientes/luminarias.png" alt="Brasão de Luminárias">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Sem Peixe</p>
+                <img src="img/clientes/sem-peixe.png" alt="Brasão de Sem Peixe"> 
+            </div>
+            <div>
+                <p>Câmara Municipal de Rubelita</p>
+                <img src="img/clientes/rubelita.png" alt="Brasão de Rubelita">
+            </div>
+            <div>
+                <p>Câmara Municipal de Lambarí</p>
+                <img src="img/clientes/lambari.png" alt="Brasão de Lambarí">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Virgem da Lapa</p>
+                <img src="img/clientes/virgem.png" alt="Brasão de Virgem da Lapa"> 
+            </div>
+            <div>
+                <p>Câmara Municipal de Matutina</p>
+                <img src="img/clientes/matutina.png" alt="Brasão de Matutina">
+            </div>
+            <div>
+                <p>Câmara Municipal de Cambuquira</p>
+                <img src="img/clientes/cambuquira.png" alt="Brasão de Cambuquira">
+            </div>
+            <div>
+                <p>Câmara Municipal de Itinga</p>
+                <img src="img/clientes/itinga.png" alt="Brasão de Itinga">
+            </div>
+        </div>
+        <div class="some pagina-bloco-clientes" id="treze">
+            <div>
+                <p>Prefeitura Municipal de Cambuquira</p>
+                <img src="img/clientes/cambuquira.png" alt="Brasão de Cambuquira">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Carbonita</p>
+                <img src="img/clientes/carbonita.png" alt="Brasão de Carbonita"> 
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Pintangui</p>
+                <img src="img/clientes/pitangui.png" alt="Brasão de Pitangui">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Diamantina</p>
+                <img src="img/clientes/diamantina.png" alt="Brasão de Diamantina">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Divino</p> 
+                <img src="img/clientes/divino.png" alt="Brasão de Divino">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Ouro Branco</p>
+                <img src="img/clientes/ouro-branco.png" alt="Brasão de Ouro Branco">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Reduto</p>
+                <img src="img/clientes/reduto.png" alt="Brasão de Reduto">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Tarumirim</p>
+                <img src="img/clientes/tarumirim.png" alt="Brasão de Tarumirim">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de São Tomá das Letras</p>
+                <img src="img/clientes/sao-tome.png" alt="Brasão de São Tomá das Letras"> 
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Pitangui</p>
+                <img src="img/clientes/pitangui.png" alt="Brasão de Pitangui">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Luminárias</p>
+                <img src="img/clientes/luminarias.png" alt="Brasão de Luminárias">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Monsenhor Paulo</p>
+                <img src="img/clientes/monsenhor.png" alt="Brasão de Monsenhor Paulo"> 
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Matutina</p>
+                <img src="img/clientes/matutina.png" alt="Brasão de Matutina">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Poços de Caldas</p>
+                <img src="img/clientes/pocos-caldas.png" alt="Brasão de Poços de Caldas">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Ubá</p>
+                <img src="img/clientes/uba.png" alt="Brasão de Ubá">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Alvarenga</p>
+                <img src="img/clientes/alvarenga.png" alt="Brasão de Alvarenga">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Araçuaí</p>
+                <img src="img/clientes/aracuai.png" alt="Brasão de Araçuaí">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Mutum</p>
+                <img src="img/clientes/mutum.png" alt="Brasão de Mutum">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Visconde do Rio Branco</p>
+                <img src="img/clientes/visconde.png" alt="Brasão de Visconde do Rio Branco">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Manhuaçu</p>
+                <img src="img/clientes/manhuacu.png" alt="Brasão de Manhuaçu">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Matutina</p>
+                <img src="img/clientes/matutina-2.png" alt="Brasão de Manhuaçu">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de São Gotardo</p>
+                <img src="img/clientes/sao-gotardo.png" alt="Brasão de Manhuaçu">
+            </div>
+        </div>
+        <div class="some pagina-bloco-clientes" id="dezessete">
+            <div>
+                <p>Prefeitura Municipal de Divino</p> 
+                <img src="img/clientes/divino.png" alt="Brasão de Divino">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de São Tomá das Letras</p>
+                <img src="img/clientes/sao-tome.png" alt="Brasão de São Tomá das Letras"> 
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Pitangui</p>
+                <img src="img/clientes/pitangui.png" alt="Brasão de Pitangui">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Luminárias</p>
+                <img src="img/clientes/luminarias.png" alt="Brasão de Luminárias">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Monsenhor Paulo</p>
+                <img src="img/clientes/monsenhor.png" alt="Brasão de Monsenhor Paulo"> 
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Erválha</p>
+                <img src="img/clientes/ervalha.png" alt="Brasão de Erválha"> 
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Matutina</p>
+                <img src="img/clientes/matutina.png" alt="Brasão de Matutina">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Poços de Caldas</p>
+                <img src="img/clientes/pocos-caldas.png" alt="Brasão de Poços de Caldas">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Ubá</p>
+                <img src="img/clientes/uba.png" alt="Brasão de Ubá">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Alvarenga</p>
+                <img src="img/clientes/alvarenga.png" alt="Brasão de Alvarenga">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Araçuaí</p>
+                <img src="img/clientes/aracuai.png" alt="Brasão de Araçuaí">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Alto do Jequitibá</p>
+                <img src="img/clientes/alto-jequitiba.jfif" alt="Brasão de Araçuaí">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Berilo</p>
+                <img src="img/clientes/berilo.png" alt="Brasão de Berilo">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Cana Verde</p>
+                <img src="img/clientes/cana-verde.jpg" alt="Brasão de Cana Verde">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de CII AMAJE – DIAMANTINA</p>
+                <img src="img/clientes/cii-amaje.png" alt="Brasão de CII AMAJE – DIAMANTINA">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Datas</p>
+                <img src="img/clientes/datas.png" alt="Brasão de Datas">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Espera Feliz</p>
+                <img src="img/clientes/espera-feliz.png" alt="Brasão de Espera Feliz">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Mutum</p>
+                <img src="img/clientes/mutum.png" alt="Brasão de Mutum">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Visconde do Rio Branco</p>
+                <img src="img/clientes/visconde.png" alt="Brasão de Visconde do Rio Branco">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Ribeirão Vermelho</p>
+                <img src="img/clientes/ribeirao-vermelho.jpg" alt="Brasão de Ribeirão Vermelho">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Aguanil</p>
+                <img src="img/clientes/aguail.jpg" alt="Brasão de Aguanil">
+            </div>
+            <div>
+                <p>Câmara Municipal de São Gotardo</p>
+                <img src="img/clientes/sao-gotardo.png" alt="Brasão de Manhuaçu">
+            </div>
+            <div>
+                <p>Consórcio Cisverde</p>
+                <img src="img/clientes/cisverde.png" alt="Brasão de Manhuaçu">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Guidoval</p>
+                <img src="img/clientes/guidoval.png" alt="Brasão de Guidoval">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Manhuaçu</p>
+                <img src="img/clientes/manhuacu.png" alt="Brasão de Manhuaçu">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Matutina</p>
+                <img src="img/clientes/matutina-2.png" alt="Brasão de Manhuaçu">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Patrocínio</p>
+                <img src="img/clientes/patrocinio.png" alt="Brasão de Patrocínio">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Rio Paranaíba</p>
+                <img src="img/clientes/rio-paranaiba.jpg" alt="Brasão de Rio Paranaíba">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Raul Soares</p>
+                <img src="img/clientes/raul-soares.png" alt="Brasão de Raul Soares">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de São Gotardo</p>
+                <img src="img/clientes/sao-gotardo.png" alt="Brasão de São Gotardo">
+            </div>
+            <div>
+                <p>Prefeitura Municipal de Tiros</p>
+                <img src="img/clientes/tiros.png" alt="Brasão de Tiros">
+            </div>
+           
+        </div>
+</section>
+
+<section class="informacao-faixa">
+    <div class="bloco-informacao">
+        <p>Para alcançar a eficiência em seus projetos, a empresa desenvolve um constante trabalho de estudo e pesquisa.</p>
+        <a href="empresa.html">Saiba mais</a>
+    </div>
+</section>
+
+<footer>
+    <div class="bloco-rodape">    
+        <div class="logo-rodape">
+            <img src="img/logo.png">
+        </div>
+
+        <div class="superior-rodape">
+            <h4>Para alcançar a eficiência em seus projetos, a empresa desenvolve um constante trabalho de estudo e pesquisa, buscando disponibilizar aos seus clientes, informações atualizadas, suporte técnico e as mais modernas técnicas de administração.</h4>
+        </div>
+
+        <div class="endereco-rodape">
+            <h5>Endereço</h5>
+            <p>MATRIZ: Av. Olegário Maciel, 2345, salas 301 e 302, Bairro Santo Agostinho, Belo Horizonte-MG, CEP 30.180-112 - CNPJ: 02.786.239/0001-64</p>
+            <br>
+            <p>FILIAL: Av. Dr. Jose Mariano, 87, 2º andar, Bairro Citrolândia, Betim-MG, CEP 32.641-834 - CNPJ: 02.786.239/0002-45</p>
+        </div>
+    </div>
+
+    <div class="inferior-rodape">
+        <div class="copy">
+            <p>Amadeus consultoria © 2018. Todos os direitos reservados.</p>
+        </div>
+    </div>
+</footer>
+
+<script src="js/index.js"></script>
+<script src="js/menu_informacoes.js"></script>
+
+</body>
+</html>
