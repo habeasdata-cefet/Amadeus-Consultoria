@@ -908,6 +908,7 @@ nav {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin: 5px;
 }
 
 .titulo h5 {
@@ -918,7 +919,7 @@ nav {
     margin-bottom: 15px;
 }
 
-.titulo h3 {
+.titulo h2 {
     color: #202020;
     font-size: 1.7em;
     font-weight: 400;
@@ -1030,7 +1031,7 @@ nav {
     transition-duration: 1s;
 }
 
-.descricao-servicos:hover {
+.descricao-servicos:hover, .individual-objetivos:hover {
     border: 1px solid #D61119;
     transition-duration: 1s;
 }
@@ -1918,6 +1919,9 @@ form textarea {
     width: auto;
 }
 
+.fotos-equipe{
+    width: 300px;
+}
 
 /* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
 /* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
@@ -2130,7 +2134,7 @@ form textarea {
 
     /* :::::::::::::::::::::::::::::::::::::::::: */
 
-    .titulo h3 {
+    .titulo h2 {
         font-size: 1.5em;
     }
 
